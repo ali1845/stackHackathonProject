@@ -1,0 +1,14 @@
+[project]
+name = "investChain"
+authors = ["ahmed", "ali", "andrea"]
+
+[contracts]
+path = "./contracts"
+
+[env]
+node_url = "https://stacks-node-api.testnet.stacks.co"
+network = "testnet"
+
+[network]
+name = "testnet"
+rpc_node = "https://stacks-node-api.testnet.stacks.co"
